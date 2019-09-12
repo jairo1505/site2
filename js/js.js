@@ -75,8 +75,8 @@ function suporte(){
 	document.getElementById("MenuContato").className = "";
 	document.getElementById("MenuSuporte").className = "active";
 	result.innerHTML = "<h1>Suporte:<h1>";
-	result.innerHTML += "<h3>Seu IP:</h3><iframe src=\"https://site.jaraguatel.com.br/ip/pop.php\" frameborder=\"0\" scrolling=\"NO\" height=\"130px\" style=\"height: 130px;\" width=\"400px;\"></iframe><br/>";
-	result.innerHTML += "<h3>Verifica Porta:</h3><iframe src=\"https://site.jaraguatel.com.br/verificaporta/pop.php\" frameborder=\"0\" scrolling=\"NO\" height=\"160px\" style=\"height: 160px;\" width=\"300px;\"></iframe>";
+	result.innerHTML += "<h3>Seu IP:</h3><iframe src=\"https://backend.jaraguatel.com.br/ip/\" frameborder=\"0\" scrolling=\"NO\" height=\"130px\" style=\"height: 130px;\" width=\"400px;\"></iframe><br/>";
+	result.innerHTML += "<h3>Verifica Porta:</h3><iframe src=\"https://backend.jaraguatel.com.br/verifica_porta/\" frameborder=\"0\" scrolling=\"NO\" height=\"160px\" style=\"height: 160px;\" width=\"300px;\"></iframe>";
 }
 var i = 0;
 function show(){
