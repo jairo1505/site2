@@ -21,6 +21,7 @@ ul {
 	overflow: hidden;
 	background-color: #333;
 	border-radius: 10px;
+	font-weight: bold;
 }
 
 li {
@@ -79,10 +80,36 @@ li a:hover {
 	background-color: #333;
 	color: #fff;
 	border-radius: 10px;
+	font-weight: bold;
 }
 #menuCel{
 	display: none;
 }
+
+.icon {
+	width: 25px;
+	height: 25px;
+}
+
+.button {
+	background:#333;
+	width: 200px;
+	font-size: 16px;
+	border-radius: 26px;
+	border: 5px solid #333;
+	color: #fff;
+	text-align: right;
+	font-weight: bold;
+}
+.button img {
+	float: left;
+}
+
+.button:hover {
+	background:#00AEF7;
+	border: 5px solid #00AEF7;
+}
+
 @media only screen and (max-device-width: 800px) {
 	.total {
 		width: 100%;

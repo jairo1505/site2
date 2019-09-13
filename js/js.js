@@ -77,6 +77,10 @@ function suporte(){
 	result.innerHTML = "<h1>Suporte:<h1>";
 	result.innerHTML += "<h3>Seu IP:</h3><iframe src=\"https://backend.jaraguatel.com.br/ip/\" frameborder=\"0\" scrolling=\"NO\" height=\"130px\" style=\"height: 130px;\" width=\"400px;\"></iframe><br/>";
 	result.innerHTML += "<h3>Verifica Porta:</h3><iframe src=\"https://backend.jaraguatel.com.br/verifica_porta/\" frameborder=\"0\" scrolling=\"NO\" height=\"160px\" style=\"height: 160px;\" width=\"300px;\"></iframe>";
+	result.innerHTML += "<h1>Downloads:</h1><br/>";
+	result.innerHTML += "<button class=\"button\" onclick=\"window.open('https://anydesk.com/pt/downloads/windows','_blank')\"><img class=\"icon\" src=\"img/download.svg\" /> AnyDesk</button><br/><br/>";
+	result.innerHTML += "<button class=\"button\" onclick=\"window.open('https://backend.jaraguatel.com.br/arquivos/Firefox28.exe')\"><img class=\"icon\" src=\"img/download.svg\" /> Mozilla Firefox 28</button><br/><br/>";
+	result.innerHTML += "<button class=\"button\" onclick=\"window.open('https://backend.jaraguatel.com.br/arquivos/Firefox40.exe')\"><img class=\"icon\" src=\"img/download.svg\" /> Mozilla Firefox 40</button>";
 }
 var i = 0;
 function show(){
