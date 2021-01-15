@@ -74,7 +74,7 @@ function suporte(){
 	document.getElementById("MenuSobre").className = "";
 	document.getElementById("MenuContato").className = "";
 	document.getElementById("MenuSuporte").className = "active";
-	result.innerHTML = "<h1>Suporte:<h1>";
+	result.innerHTML = "<h1>Suporte:</h1>";
 	result.innerHTML += "<h3>Seu IP:</h3><iframe src=\"https://backend.jaraguatel.com.br/ip/\" frameborder=\"0\" scrolling=\"NO\" height=\"130px\" style=\"height: 130px;\" width=\"400px;\"></iframe><br/>";
 	result.innerHTML += "<h3>Verifica Porta:</h3><iframe src=\"https://backend.jaraguatel.com.br/verifica_porta/\" frameborder=\"0\" scrolling=\"NO\" height=\"160px\" style=\"height: 160px;\" width=\"300px;\"></iframe>";
 	result.innerHTML += "<h1>Downloads:</h1><br/>";
@@ -85,8 +85,7 @@ function suporte(){
 }
 var i = 0;
 function show(){
-	var largura = window.innerWidth;
-	if (largura < 800) {
+	if (window.innerWidth <= 800) {
 		if(i%2==0){
 			document.getElementById('menu1').style.display='block';
 			document.getElementById('menu2').style.display='block';
@@ -105,5 +104,27 @@ function show(){
 		i++;
 	}
 }
+
+window.addEventListener("resize", resizeScreen);
+
+function resizeScreen() {
+	if (window.innerWidth > 800) {
+		document.getElementById('menu1').style.display='block';
+		document.getElementById('menu2').style.display='block';
+		document.getElementById('menu3').style.display='block';
+		document.getElementById('menu4').style.display='block';
+		//document.getElementById('menu5').style.display='block';
+		document.getElementById('menu6').style.display='block';
+	} else {
+		document.getElementById('menu1').style.display='none';
+		document.getElementById('menu2').style.display='none';
+		document.getElementById('menu3').style.display='none';
+		document.getElementById('menu4').style.display='none';
+		//document.getElementById('menu5').style.display='none';
+		document.getElementById('menu6').style.display='none';
+		i=0;
+	}
+}
+
 contato();
 show();
