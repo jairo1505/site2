@@ -78,6 +78,8 @@ function suporte(){
 	result.innerHTML += "<h3>Seu IP:</h3><iframe src=\"https://backend.jaraguatel.com.br/ip/\" frameborder=\"0\" scrolling=\"NO\" height=\"130px\" style=\"height: 130px;\" width=\"400px;\"></iframe><br/>";
 	result.innerHTML += "<h3>Verifica Porta:</h3><iframe src=\"https://backend.jaraguatel.com.br/verifica_porta/\" frameborder=\"0\" scrolling=\"NO\" height=\"160px\" style=\"height: 160px;\" width=\"300px;\"></iframe>";
 	result.innerHTML += "<h1>Downloads:</h1><br/>";
+	result.innerHTML += "<button class=\"button\" onclick=\"window.open('https://backend.jaraguatel.com.br/arquivos/Instalador SIMNEXT-1.18.19.exe_.zip','_blank')\"><img class=\"icon\" src=\"img/download.svg\" /> SIM Next v1.18.19</button><br/><br/>";
+	result.innerHTML += "<button class=\"button\" onclick=\"window.open('https://backend.jaraguatel.com.br/arquivos/simplus_setup_-_31_08_2016.exe','_blank')\"><img class=\"icon\" src=\"img/download.svg\" /> SIM Plus v31/08/16</button><br/><br/>";
 	result.innerHTML += "<button class=\"button\" onclick=\"window.open('https://anydesk.com/pt/downloads/windows','_blank')\"><img class=\"icon\" src=\"img/download.svg\" /> AnyDesk</button><br/><br/>";
 	result.innerHTML += "<button class=\"button\" onclick=\"window.open('https://backend.jaraguatel.com.br/arquivos/AA_v3.exe','_blank')\"><img class=\"icon\" src=\"img/download.svg\" /> Ammyy admin</button><br/><br/>";
 	result.innerHTML += "<button class=\"button\" onclick=\"window.open('https://backend.jaraguatel.com.br/arquivos/Firefox28.exe')\"><img class=\"icon\" src=\"img/download.svg\" /> Mozilla Firefox 28</button><br/><br/>";
