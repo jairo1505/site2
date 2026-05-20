@@ -144,3 +144,18 @@ li a:hover {
 		width:95%;
 	}
 }
+
+table.suporteTable {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+}
+table.suporteTable td,
+table.suporteTable th {
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+@media only screen and (max-device-width: 600px) {
+    table.suporteTable { width: 90%; }
+}
